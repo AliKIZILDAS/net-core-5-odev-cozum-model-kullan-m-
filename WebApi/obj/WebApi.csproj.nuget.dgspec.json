@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Ali\\Documents\\Patika\\Pratikler\\BookStore\\WebApi\\WebApi.csproj": {}
+    "C:\\Users\\Ali\\Documents\\Patika\\Pratikler\\BookStore\\webApi\\WebApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Ali\\Documents\\Patika\\Pratikler\\BookStore\\WebApi\\WebApi.csproj": {
+    "C:\\Users\\Ali\\Documents\\Patika\\Pratikler\\BookStore\\webApi\\WebApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Ali\\Documents\\Patika\\Pratikler\\BookStore\\WebApi\\WebApi.csproj",
+        "projectUniqueName": "C:\\Users\\Ali\\Documents\\Patika\\Pratikler\\BookStore\\webApi\\WebApi.csproj",
         "projectName": "WebApi",
-        "projectPath": "C:\\Users\\Ali\\Documents\\Patika\\Pratikler\\BookStore\\WebApi\\WebApi.csproj",
+        "projectPath": "C:\\Users\\Ali\\Documents\\Patika\\Pratikler\\BookStore\\webApi\\WebApi.csproj",
         "packagesPath": "C:\\Users\\Ali\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Ali\\Documents\\Patika\\Pratikler\\BookStore\\WebApi\\obj\\",
+        "outputPath": "C:\\Users\\Ali\\Documents\\Patika\\Pratikler\\BookStore\\webApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Ali\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -38,6 +38,14 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.1.1, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.1.1, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[5.0.6, )"
